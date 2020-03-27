@@ -5,6 +5,7 @@
 # Contributor: untseac
 # Contributor: siasia
 # Contributor: Lukas Jirkovsky <l.jirkovsky@gmail.com>
+# Contributor: JuliusTZM <julius dot tzm at gmail dot com>
 
 pkgname=oracle-xe
 pkgver=18.4.0_1.0
