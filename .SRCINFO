@@ -1,0 +1,36 @@
+pkgbase = oracle-xe
+	pkgdesc = a non free DBMS
+	pkgver = 18.4.0_1.0
+	pkgrel = 1
+	url = http://www.oracle.com/
+	install = oracle.install
+	arch = x86_64
+'libaio>=0.3.112-2' 'gcc>=9.3.0-1' 'binutils>=2.34-2.1' 'make>=4.3-1' 'glibc>=2.31-2' 'bc' 'net-tools'
+	license = custom
+	depends = libaio>=0.3.112-2
+	depends = gcc>=9.3.0-1
+	depends = binutils>=2.34-2.1
+	depends = make>=4.3-1
+	depends = glibc>=2.31-2
+	depends = bc
+	depends = net-tools
+	provides = oracle-xe
+	conflicts = oracle-xe
+	options = !strip
+	source = manual://download/file/from/oracle/page/oracle-database-xe-18c-1.0-1.x86_64.rpm
+	source = oracle_env.csh
+	source = oracle_env.sh
+	source = oracle-xe-18c
+	source = oracle-xe-18c.conf
+	source = oracle-xe-18c.ld.so.conf
+	source = oracle-xe.service
+	md5sums = 9ff73be7e89edb22e5c1f7a457978aca
+	md5sums = 648ee79a2a72beb83195288df0e5a544
+	md5sums = e3947cdec45dbf2d357f6ff25559ac15
+	md5sums = 742a745373d1f873c3417e1defafd92e
+	md5sums = 9ce538757edbdb49847677ef6520de5b
+	md5sums = 9f0c964a1b046e8d930549915b468e35
+	md5sums = 3dd923ac2df9fd38827fc9fc0048273a
+
+pkgname = oracle-xe
+
